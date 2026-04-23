@@ -10,23 +10,26 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/Promo321/PROJET-CLUB-SPORT-JEUDI/index.php">Club Sportif</a>
+    <a class="navbar-brand" href="/Promo321/Bibliothéque Cléry/index.php">Bibliothèque Cléry</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/Promo321/PROJET-CLUB-SPORT-JEUDI/index.php">Accueil</a>
+          <a class="nav-link active" aria-current="page" href="/Promo321/Projet_Bibliothèque/index.php">Accueil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/Promo321/Projet_Bibliothèque/offre/offre.php">Offres</a>
+          <a class="nav-link" href="/Promo321/Projet_Bibliothèque/offre/offre.php">Livres</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/Promo321/PROJET-CLUB-SPORT-JEUDI/offre/inscription.php">Inscription</a>
+          <a class="nav-link" href="/Promo321/Projet_Bibliothèque/offre/inscription.php">Auteur</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/Promo321/PROJET-CLUB-SPORT-JEUDI/offre/statistique.php">Statistiques </a>
+          <a class="nav-link" href="/Promo321/Projet_Bibliothèque/offre/inscription.php">À Propos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Promo321/Projet_Bibliothèque/offre/statistique.php">Contact</a>
         </li>
       </ul>
     </div>
