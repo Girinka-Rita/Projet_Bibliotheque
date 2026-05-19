@@ -9,6 +9,7 @@
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: 'Segoe UI', sans-serif; background: #eef2f8; color: #333; }
+<<<<<<< HEAD
 
     /* ── Header ── */
     .header-top { display: flex; justify-content: space-between; align-items: center; gap: 15px; padding: 18px 30px; background: linear-gradient(135deg,#667eea 0%,#764ba2 100%); box-shadow: 0 4px 16px rgba(0,0,0,0.15); position: sticky; top: 0; z-index: 10; flex-wrap: wrap; }
@@ -27,6 +28,15 @@
     .btn-connexion:hover { background: #fff; box-shadow: 0 5px 16px rgba(0,0,0,0.15); }
 
     /* ── Layout ── */
+=======
+    .header-top { display: flex; justify-content: space-between; align-items: center; gap: 15px; padding: 18px 30px; background: linear-gradient(135deg,#667eea 0%,#764ba2 100%); box-shadow: 0 4px 16px rgba(0,0,0,0.15); position: sticky; top: 0; z-index: 100; flex-wrap: wrap; }
+    .header-left { display: flex; align-items: center; gap: 12px; color: white; }
+    .header-left img { width: 48px; height: 48px; border-radius: 50%; border: 2px solid rgba(255,255,255,0.85); object-fit: cover; }
+    .header-left h5 { margin: 0; font-size: 1.5rem; font-weight: 700; }
+    .search-bar { flex: 1; max-width: 360px; }
+    .search-bar input { width: 100%; padding: 11px 18px; border-radius: 999px; border: none; background: #fff; color: #333; box-shadow: 0 10px 22px rgba(0,0,0,0.08); }
+    .search-bar input::placeholder { color: #999; }
+>>>>>>> ed21f9efeea47cad5f04f8126b5062291c4379e8
     .container-main { display: flex; min-height: calc(100vh - 84px); }
     .sidebar { width: 240px; background: #fff; padding: 22px 0; border-right: 1px solid #dde2ed; flex-shrink: 0; }
     .sidebar a { display: flex; align-items: center; gap: 10px; padding: 14px 20px; color: #475569; text-decoration: none; border-left: 4px solid transparent; border-radius: 0 10px 10px 0; margin-bottom: 8px; transition: .25s ease; }
@@ -44,6 +54,7 @@
     .book-info h4 { margin: 0 0 8px; font-size: 1.05rem; color: #111827; }
     .book-info p { margin: 4px 0 0; font-size: .95rem; color: #52606d; }
     .footer { background: linear-gradient(135deg,#667eea 0%,#764ba2 100%); color: #fff; text-align: center; padding: 24px 20px; margin-top: 36px; font-weight: 500; }
+<<<<<<< HEAD
 
     /* ══════════════════════════════════════
        MODALE CONNEXION / INSCRIPTION
@@ -158,11 +169,14 @@
     }
     .err-bar.show { display: flex; }
 
+=======
+>>>>>>> ed21f9efeea47cad5f04f8126b5062291c4379e8
     @media (max-width: 992px) { .container-main { flex-direction: column; } .sidebar { width: 100%; border-right: none; border-bottom: 1px solid #dde2ed; } .main-content { padding: 28px 24px; } .hero img { height: 320px; } }
     @media (max-width: 680px) { .header-top { justify-content: center; } .search-bar { width: 100%; } .main-content h2 { font-size: 2rem; } }
   </style>
 </head>
 <body>
+<<<<<<< HEAD
 
   <!-- ════════════════════════════════
        MODALE CONNEXION / INSCRIPTION
@@ -276,11 +290,17 @@
   <header class="header-top">
     <div class="header-left">
       <img src="img/mon-profile-img.jpg" alt="Logo" onerror="this.style.background='rgba(255,255,255,0.3)'">
+=======
+  <header class="header-top">
+    <div class="header-left">
+      <img src="assets/img/mon-profile-img.jpg" alt="Logo">
+>>>>>>> ed21f9efeea47cad5f04f8126b5062291c4379e8
       <h5>Bibliothèque Cléry</h5>
     </div>
     <div class="search-bar">
       <input type="text" placeholder="Rechercher un livre...">
     </div>
+<<<<<<< HEAD
     <div class="header-right">
       <div class="user-pill" id="user-pill" onclick="ouvrirModal()" style="display:none">
         <i class="bi bi-person-circle"></i>
@@ -292,6 +312,9 @@
     </div>
   </header>
 
+=======
+  </header>
+>>>>>>> ed21f9efeea47cad5f04f8126b5062291c4379e8
   <div class="container-main">
     <aside class="sidebar">
       <a href="#" class="active"><i class="bi bi-house"></i> Accueil</a>
@@ -311,28 +334,43 @@
           <div class="book-card">
             <img src="img/livre1.jpg" alt="Livre 1" onerror="this.style.backgroundColor='#ddd'">
             <div class="book-info">
+<<<<<<< HEAD
               <h4>Ta deuxième vie commence...</h4>
               <p><strong>Auteur :</strong> Raphaëlle Giordano</p>
+=======
+              <h4>Titre Livre 1</h4>
+              <p><strong>Auteur :</strong> Nom Auteur</p>
+>>>>>>> ed21f9efeea47cad5f04f8126b5062291c4379e8
             </div>
           </div>
           <div class="book-card">
             <img src="img/livre2.jpg" alt="Livre 2" onerror="this.style.backgroundColor='#ddd'">
             <div class="book-info">
+<<<<<<< HEAD
               <h4>Les Misérables</h4>
+=======
+              <h4>Les misérables</h4>
+>>>>>>> ed21f9efeea47cad5f04f8126b5062291c4379e8
               <p><strong>Auteur :</strong> Victor Hugo</p>
             </div>
           </div>
           <div class="book-card">
             <img src="img/livre3.jpg" alt="Livre 3" onerror="this.style.backgroundColor='#ddd'">
             <div class="book-info">
+<<<<<<< HEAD
               <h4>Roméo et Juliette</h4>
               <p><strong>Auteur :</strong> William Shakespeare</p>
+=======
+              <h4>Titre Livre 3</h4>
+              <p><strong>Auteur :</strong> Nom Auteur</p>
+>>>>>>> ed21f9efeea47cad5f04f8126b5062291c4379e8
             </div>
           </div>
         </div>
       </section>
     </main>
   </div>
+<<<<<<< HEAD
 
   <footer class="footer">
     <p>&copy; 2026 Bibliothèque Cléry. Tous droits réservés.</p>
@@ -436,5 +474,11 @@
       }, 1200);
     }
   </script>
+=======
+  <footer class="footer">
+    <p>&copy; 2026 Bibliothèque Cléry. Tous droits réservés.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+>>>>>>> ed21f9efeea47cad5f04f8126b5062291c4379e8
 </body>
 </html>
